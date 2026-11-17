@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Virtual Assistant Portfolio | Your Name</title>
+<style>
+:root{--navy:#17243b;--blue:#4263eb;--pale:#f4f7ff;--ink:#253047;--muted:#64708a;--line:#e2e8f0;--white:#fff;--green:#1b806a}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f8fafc;color:var(--ink);line-height:1.6}
+nav{position:sticky;top:0;background:rgba(255,255,255,.96);border-bottom:1px solid var(--line);z-index:5;display:flex;justify-content:center;gap:22px;padding:14px 10px;flex-wrap:wrap}nav a{color:var(--navy);text-decoration:none;font-size:.92rem;font-weight:700}nav a:hover{color:var(--blue)}
+.wrap{max-width:1040px;margin:auto;padding:0 22px}.hero{background:linear-gradient(135deg,#17243b,#314a83);color:white;padding:76px 0 68px}.hero-grid{display:grid;grid-template-columns:1.6fr 1fr;gap:28px;align-items:center}.eyebrow{text-transform:uppercase;letter-spacing:2px;font-size:.78rem;color:#cbd7ff;font-weight:700}.hero h1{font-size:clamp(2.4rem,6vw,4rem);line-height:1.05;margin:12px 0}.hero p{font-size:1.1rem;color:#e1e8ff;max-width:650px}.pill{display:inline-block;border:1px solid #8297d7;border-radius:999px;padding:6px 12px;margin:5px 5px 0 0;font-size:.83rem}.hero-card{background:#ffffff12;border:1px solid #ffffff38;border-radius:20px;padding:24px}.hero-card .initials{width:74px;height:74px;display:grid;place-items:center;background:#fff;color:var(--navy);font-size:1.7rem;font-weight:800;border-radius:50%;margin-bottom:16px}.hero-card small{color:#d7e0ff}.btn{display:inline-block;padding:11px 17px;border-radius:9px;background:#fff;color:var(--navy);font-weight:700;text-decoration:none;margin-top:14px}.btn.secondary{background:transparent;color:#fff;border:1px solid #aab9ef;margin-left:7px}
+section{padding:56px 0}.section-head{margin-bottom:25px}.kicker{color:var(--blue);font-size:.78rem;font-weight:800;text-transform:uppercase;letter-spacing:1.6px}.section-head h2{font-size:2rem;color:var(--navy);margin:5px 0}.section-head p{color:var(--muted);max-width:700px;margin:0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:white;border:1px solid var(--line);border-radius:15px;padding:21px;box-shadow:0 4px 18px #1c2a4a08}.card h3{margin:8px 0;color:var(--navy)}.icon{width:42px;height:42px;border-radius:12px;background:var(--pale);display:grid;place-items:center;font-size:1.25rem}.muted{color:var(--muted)}.tag{display:inline-block;background:#eef2ff;color:#354bb0;padding:4px 8px;border-radius:6px;font-size:.78rem;margin:3px 3px 0 0}
+.soft{background:#f0f4ff}.project{background:white;border:1px solid var(--line);border-radius:16px;overflow:hidden;margin:18px 0}.project-top{padding:18px 22px;background:#f8faff;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:14px;align-items:center}.project-top h3{margin:0;color:var(--navy)}.project-body{padding:22px}.sample{border:1px dashed #bdc8dc;background:#fbfcff;border-radius:10px;padding:16px;margin-top:12px;overflow:auto}.sample table{width:100%;border-collapse:collapse;font-size:.9rem}.sample th,.sample td{border:1px solid #dbe2ef;text-align:left;padding:9px}.sample th{background:#edf2ff}.email{max-width:650px;background:#fff;border:1px solid var(--line);padding:16px;border-radius:10px}.email p{margin:8px 0}.steps{counter-reset:step;display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.step{background:#fff;border:1px solid var(--line);border-radius:13px;padding:17px}.step:before{counter-increment:step;content:counter(step);display:grid;place-items:center;background:var(--blue);color:#fff;width:30px;height:30px;border-radius:50%;font-weight:800;margin-bottom:10px}
+.contact{background:var(--navy);color:white}.contact h2{color:white}.contact p{color:#d8e0f5}.contact .card{color:var(--ink)}footer{text-align:center;padding:22px;color:var(--muted);font-size:.86rem}.notice{border-left:4px solid var(--green);background:#edf9f5;padding:13px 16px;border-radius:0 9px 9px 0;color:#22594d;font-size:.92rem}
+@media(max-width:760px){.hero-grid,.grid,.steps{grid-template-columns:1fr}.hero{padding:52px 0}.hero-card{max-width:440px}.project-top{align-items:flex-start;flex-direction:column}nav{gap:12px}nav a{font-size:.82rem}section{padding:42px 0}}
+@media print{nav{position:static}.hero{background:#17243b!important;print-color-adjust:exact;-webkit-print-color-adjust:exact}.btn{display:none}body{background:white}.card,.project{break-inside:avoid}section{padding:30px 0}}
+</style>
+</head>
+<body>
+<nav>
+  <a href="#about">About</a><a href="#services">Services</a><a href="#skills">Tools & Skills</a><a href="#projects">Sample Work</a><a href="#process">How I Work</a><a href="#contact">Contact</a>
+</nav>
+<header class="hero">
+ <div class="wrap hero-grid">
+  <div>
+   <div class="eyebrow">Virtual Assistant Portfolio</div>
+   <h1>Seth Jay M. Tariao</h1>
+   <p>Reliable, organized, and detail-oriented Virtual Assistant helping businesses stay on top of everyday tasks so they can focus on what matters most.</p>
+   <span class="pill">Administrative Support</span><span class="pill">Data Entry</span><span class="pill">Online Research</span><span class="pill">Document Formatting</span>
+   <div><a class="btn" href="#contact">Contact Me</a><a class="btn secondary" href="#projects">View Sample Work</a></div>
+  </div>
+  <aside class="hero-card">
+   <div class="initials">ST</div>
+   <small>MY WORKING STYLE</small>
+   <h2>Clear communication.<br>Careful work.<br>Dependable support.</h2>
+   <p>I value accuracy, confidentiality, continuous learning, and meeting agreed deadlines.</p>
+  </aside>
+ </div>
+</header>
+
+<section id="about">
+ <div class="wrap">
+  <div class="section-head"><div class="kicker">A little about me</div><h2>About Me</h2></div>
+  <p>Hi! I'm Seth Jay M. Tariao, an aspiring Virtual Assistant based in the Philippines with a focus on Microsoft Office, organized administrative support, and accurate data handling. I enjoy organizing information, preparing clear documents, researching topics, and helping tasks run smoothly. I am building my skills in administrative support and digital productivity tools, and I am eager to learn each client's workflow and follow instructions carefully.</p>
+  <p class="muted">My approach is simple: understand the task, confirm expectations, work carefully, and communicate progress. I am open to entry-level opportunities where I can contribute, learn, and grow.</p>
+ </div>
+</section>
+
+<section id="services" class="soft">
+ <div class="wrap">
+  <div class="section-head"><div class="kicker">What I can help with</div><h2>Services</h2><p>Choose only the services you can confidently perform; update this section as your skills grow.</p></div>
+  <div class="grid">
+   <article class="card"><div class="icon">📋</div><h3>Data Entry</h3><p class="muted">Entering, cleaning, sorting, and organizing information in spreadsheets with attention to accuracy.</p></article>
+   <article class="card"><div class="icon">📄</div><h3>Document Support</h3><p class="muted">Formatting documents, proofreading for basic errors, and organizing digital files and folders.</p></article>
+   <article class="card"><div class="icon">🔎</div><h3>Online Research</h3><p class="muted">Finding information from credible sources and summarizing findings in a clear, organized format.</p></article>
+   <article class="card"><div class="icon">✉️</div><h3>Email Drafting</h3><p class="muted">Preparing polite, professional email drafts and organizing messages based on client instructions.</p></article>
+   <article class="card"><div class="icon">🗓️</div><h3>Task Organization</h3><p class="muted">Maintaining task lists, tracking deadlines, and helping keep daily priorities visible.</p></article>
+   <article class="card"><div class="icon">🖥️</div><h3>Presentation Support</h3><p class="muted">Arranging presentation content into readable slides and applying consistent formatting.</p></article>
+  </div>
+ </div>
+</section>
+
+<section id="skills">
+ <div class="wrap">
+  <div class="section-head"><div class="kicker">My toolkit</div><h2>Tools & Skills</h2><p>Replace these with the tools you have actually practiced. Don't label a tool “expert” unless you can demonstrate that level.</p></div>
+  <div class="grid">
+   <article class="card"><h3>Documents</h3><span class="tag">Microsoft Word</span><p class="muted">Formatting, headings, tables, proofreading, page layout.</p></article>
+   <article class="card"><h3>Spreadsheets</h3><span class="tag">Microsoft Excel</span><p class="muted">Data entry, sorting, filtering, basic formulas, quality checks.</p></article>
+   <article class="card"><h3>Communication</h3><span class="tag">Microsoft Outlook</span><span class="tag">Microsoft Teams</span><span class="tag">Calendar</span><p class="muted">Email etiquette, scheduling, online meeting basics.</p></article>
+   <article class="card"><h3>File Management</h3><span class="tag">OneDrive</span><span class="tag">PDF tools</span><p class="muted">Folder organization, file naming, sharing permissions.</p></article>
+   <article class="card"><h3>Productivity</h3><span class="tag">Microsoft To Do</span><span class="tag">Microsoft Planner</span><p class="muted">Task lists, due dates, simple workflow tracking.</p></article>
+   <article class="card"><h3>Writing Support</h3><span class="tag">ChatGPT</span><span class="tag">Grammar checking</span><p class="muted">Drafting and summarizing with human review and fact-checking.</p></article>
+  </div>
+ </div>
+</section>
+
+<section id="projects" class="soft">
+ <div class="wrap">
+  <div class="section-head"><div class="kicker">Demonstration projects</div><h2>Sample Work</h2><p>These are practice samples created to demonstrate approach and formatting. They are not client projects or paid work.</p></div>
+
+  <article class="project">
+   <div class="project-top"><h3>01 · Spreadsheet Data Organization</h3><span class="tag">Microsoft Excel / Excel</span></div>
+   <div class="project-body"><p><strong>Goal:</strong> Organize a small set of fictional tasks so a client can see owners, due dates, and progress at a glance.</p>
+    <div class="sample"><table><thead><tr><th>Task ID</th><th>Task</th><th>Priority</th><th>Status</th><th>Next action</th></tr></thead><tbody>
+    <tr><td>VA-001</td><td>Sort incoming requests</td><td>High</td><td>In progress</td><td>Review by priority</td></tr>
+    <tr><td>VA-002</td><td>Update contact list</td><td>Medium</td><td>Not started</td><td>Check for duplicates</td></tr>
+    <tr><td>VA-003</td><td>Format weekly report</td><td>Medium</td><td>Completed</td><td>Final quality check</td></tr>
+    <tr><td>VA-004</td><td>Organize shared folders</td><td>Low</td><td>Not started</td><td>Apply file naming rules</td></tr>
+    </tbody></table></div>
+    <p class="muted"><strong>Skills demonstrated:</strong> Consistent labels, structured data, clear statuses, and actionable next steps.</p>
+   </div>
+  </article>
+
+  <article class="project">
+   <div class="project-top"><h3>02 · Professional Email Draft</h3><span class="tag">Email communication</span></div>
+   <div class="project-body"><p><strong>Scenario:</strong> Confirm receipt of a request and clarify the deadline before beginning work.</p>
+    <div class="email"><p><strong>Subject:</strong> Confirmation of Task and Deadline</p><p>Hello [Client Name],</p><p>Thank you for sending the task details. I’m confirming that I’ve received the instructions and will review the requirements before getting started.</p><p>Could you please confirm the preferred deadline and whether there is a template you would like me to follow?</p><p>Thank you,<br>Seth Jay M. Tariao</p></div>
+    <p class="muted"><strong>Skills demonstrated:</strong> Professional tone, clear questions, and expectation-setting.</p>
+   </div>
+  </article>
+
+  <article class="project">
+   <div class="project-top"><h3>03 · Online Research Summary</h3><span class="tag">Research & reporting</span></div>
+   <div class="project-body"><p><strong>Scenario:</strong> Prepare a concise comparison before choosing a meeting platform.</p>
+    <div class="sample"><table><thead><tr><th>Criteria</th><th>Option A</th><th>Option B</th></tr></thead><tbody>
+    <tr><td>Ease of joining</td><td>Browser or app</td><td>Browser or app</td></tr>
+    <tr><td>Scheduling</td><td>Calendar invite</td><td>Calendar invite</td></tr>
+    <tr><td>Decision needed</td><td>Check client's existing account</td><td>Check client's existing account</td></tr>
+    </tbody></table></div>
+    <p class="muted">This is a template example, not a factual product review. A real research report should name the options, link reliable sources, record the date checked, and verify current features and pricing.</p>
+   </div>
+  </article>
+
+  <article class="project">
+   <div class="project-top"><h3>04 · Digital File Organization Plan</h3><span class="tag">File management</span></div>
+   <div class="project-body"><p><strong>Proposed folder structure:</strong></p>
+    <div class="sample"><code>Client_Files/<br>├── 01_Admin/<br>├── 02_Reports/<br>├── 03_Reference_Materials/<br>├── 04_Meetings/<br>└── 05_Completed_Tasks/</code></div>
+    <p class="muted"><strong>File naming example:</strong> <code>2026-11-17_Weekly-Report_v01.docx</code></p>
+    <p class="muted"><strong>Skills demonstrated:</strong> Logical folder hierarchy, consistent naming, and easier retrieval.</p>
+   </div>
+  </article>
+ </div>
+</section>
+
+<section id="process">
+ <div class="wrap">
+  <div class="section-head"><div class="kicker">My workflow</div><h2>How I Work</h2><p>A simple, transparent process helps prevent avoidable mistakes.</p></div>
+  <div class="steps">
+   <div class="step"><h3>Clarify</h3><p class="muted">Confirm the task, desired format, deadline, and any examples or rules to follow.</p></div>
+   <div class="step"><h3>Complete</h3><p class="muted">Work in an organized way, keep client information confidential, and ask when an instruction is unclear.</p></div>
+   <div class="step"><h3>Review & Report</h3><p class="muted">Check for errors, deliver in the agreed format, and communicate completion or blockers.</p></div>
+  </div>
+ </div>
+</section>
+
+<section class="contact" id="contact">
+ <div class="wrap">
+  <div class="section-head"><div class="kicker">Let's connect</div><h2>Contact Me</h2><p>I’m interested in entry-level Virtual Assistant opportunities, including administrative support, data entry, online research, and customer support, while continuing to develop my skills.</p></div>
+  <div class="grid">
+   <div class="card"><h3>📧 Email</h3><p>[Add your professional email]</p></div>
+   <div class="card"><h3>📍 Location</h3><p>[Your City, Philippines]</p></div>
+   <div class="card"><h3>🔗 Professional profile</h3><p>[Add your LinkedIn or professional profile link]</p></div>
+  </div>
+  <p style="margin-top:22px"><strong>Available for:</strong> [Add your availability: part-time, full-time, or flexible]</p>
+ </div>
+</section>
+<footer>© <span id="year"></span> Seth Jay M. Tariao · Virtual Assistant Portfolio · Practice samples are clearly labeled.</footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
